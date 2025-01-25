@@ -15,6 +15,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            flex-direction: column;
         }
         h1 {
             font-size: 3em;
@@ -23,12 +24,59 @@
         .content {
             text-align: center;
         }
+        .privacy-policy {
+            background-color: #1f1f1f;
+            padding: 20px;
+            margin-top: 30px;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 8px;
+            text-align: left;
+        }
+        .privacy-policy h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .privacy-policy p {
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
     <div class="content">
         <h1>Listen.</h1>
         <p>Welcome to the Listen app. Stay safe and aware.</p>
+        <div class="privacy-policy">
+            <h2>Privacy Policy</h2>
+            <p><strong>Effective Date:</strong> Saturday, January 1st, 2025</p>
+
+            <p><strong>1. Audio Recording Usage</strong><br>
+            The app requests the android.permission.RECORD_AUDIO permission in order to provide safety features. Audio recordings are only captured when you manually press the "Make Report" button or when you use the volume up or down buttons (as noted in the app). These recordings are used solely for emergency purposes, helping you stay safe in unsafe situations.</p>
+
+            <p><strong>2. Storage of Audio Data</strong><br>
+            All audio recordings are stored locally on your device in the app’s data folder. We do not upload or store the recordings on any external server. The recordings are only accessible to you, the user, unless you choose to share them.</p>
+
+            <p><strong>3. Access to Audio Recordings</strong><br>
+            Your audio recordings are private and only accessible to you. You may choose to share the recordings using the app’s share feature, in which case the recording will only be accessible by the person you send it to.</p>
+
+            <p><strong>4. Retention of Audio Data</strong><br>
+            Your audio recordings are saved indefinitely, unless you choose to delete them. We do not delete or alter your recordings unless requested by you.</p>
+
+            <p><strong>5. Use of Audio Data</strong><br>
+            We do not use your audio recordings for any purpose other than the emergency services provided by the app. Your recordings are not used for analytics, improvement of services, or any other purposes.</p>
+
+            <p><strong>6. Required Permission</strong><br>
+            The use of the audio recording feature is essential to the app’s functionality. The app cannot be used without granting this permission.</p>
+
+            <p><strong>7. Third-Party Services</strong><br>
+            We do not use third-party services to process or store your audio recordings.</p>
+
+            <p><strong>8. Changes to This Privacy Policy</strong><br>
+            We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. Please review this policy periodically to stay informed about how we protect your privacy.</p>
+
+            <p><strong>Contact Us</strong><br>
+            If you have any questions about this Privacy Policy or the audio recording feature, please contact us at stanvandorsten@gmail.com.</p>
+        </div>
     </div>
 </body>
 </html>
